@@ -1,0 +1,466 @@
+ /* Shared Styles */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.display-flex{
+    display: flex;
+}
+.text-primary{
+    color: rgba(233, 90, 8, 1);
+}
+
+     /* header styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 48px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+        /* banner style */
+
+        
+.banner{
+    margin-top: 140px;
+    
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+        
+         /* <!-- plant Section --> */
+
+.plant-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+.plant-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-title{
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card-subtitle{
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 10px 65px 10px 65px;
+    
+}
+.plant-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+             /* plant lover section */
+
+.plant-lover{
+    margin-top: 210px;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+}
+
+.first{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0%;
+
+ }
+
+ .second{
+    width: 15%;
+    position: absolute;
+    top: 250%;
+    left: 38%;
+ }
+
+ .flower-right{
+    width: 50%;
+ }
+
+         
+.flower-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);;
+    line-height: 55px;
+    margin-bottom: 0%;
+}
+
+.flower-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 25px;
+    
+}
+           
+     /* join section       */
+
+.join-section1{
+     text-align: center;
+     margin-top: 134px;
+ }
+
+
+.join-title1{
+
+    font-size: 50px;
+    font-family: Noto Serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+        
+        
+}
+
+
+.join-subtitle1{
+     color: rgba(0, 0, 0, 0.5);
+     font-size: 22px;
+     font-weight: 400;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 880px;
+     height: 80px;
+
+}
+
+           /* join-section-2 */
+
+.join-section2{
+    gap: 10px;
+    margin-top: 100px;
+
+}
+
+
+.box1{
+
+    background-image: url(./assets/deal-bloom.png);
+    width: 367px;
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.box2{
+
+    background-image: url(./assets/deal-ana.png);
+    width: 367px;
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+
+}
+        
+
+
+.row-2{
+
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(./assets/deal-zabo.png);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    width: 65%;
+    border-radius: 14px;
+             
+             
+}
+
+.row-2 p{
+
+     margin-top: 70px;
+     margin-bottom: 0%;
+
+}
+
+.row-2 button{
+
+    margin-top: 0%;
+ }
+
+        /* join-section-3 */
+
+.join-section3{
+
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    min-height: 533px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+             
+}
+         
+.join-title3{
+            
+            
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 90px;
+            
+          
+}
+.email{
+
+    width: 644px;
+    padding: 8px 20px 8px 20px;
+    color: rgba(0, 0, 0, 0.5);
+                 
+ }
+
+
+.Subscribe{
+
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    border: none;
+            
+
+ }
+
+           /* footer style */
+
+
+.footer{
+   justify-content: space-between;
+   max-width: 1120px;
+   margin: auto;
+   padding: 50px 0px;
+   flex: 1;
+   min-height: 248px;
+  
+   
+}
+.part1{
+   width: 30%;
+
+}   
+
+.description1{
+
+   font-size: 22px;
+   font-weight: 400;
+   text-align: left;
+   color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.part2{
+   
+    width: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin: 10px 0px;
+
+}
+
+.part2 li{
+   list-style: none;
+   padding-bottom: 20px;
+   
+}
+.part2 li a{
+   text-decoration: none;
+   color: rgb(107, 114, 128);
+   
+}
+.part3{
+   width: 20%;
+}
+.part3 li{
+   list-style: none;
+   padding-bottom: 20px;
+  
+}
+
+.part3 li a{
+   text-decoration: none;
+   color: rgb(107, 114, 128);
+   
+} 
+.part4{
+   width: 30%
+}
+
+.part4 img{
+   margin-right: 35px;
+
+}  
+
+      /* media query */
+ 
+
+@media  screen and (max-width: 576px){
+
+    .nav-links li:nth-child(1),
+    .nav-links li:nth-child(2),
+    .nav-links li:nth-child(3){
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+
+    }
+    .navbar .nav-item{
+        margin-right: 0%;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+       font-size: 50px; 
+    }
+    
+    .plant-card{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 13px;
+    }
+    .plant-lover{
+        flex-direction: column;
+    }
+    .flower-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100%;
+        margin: auto;
+        
+        
+
+    }
+    .flower-right{
+        width: 100%;
+        text-align: left;
+
+    }
+    .second{
+        visibility: hidden;
+    }
+    .join-section1{
+        text-align: center;
+        margin: auto;
+    }
+    .join-subtitle1{
+           
+           margin: auto;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: auto; 
+            
+    }
+
+    .join-section2{
+        flex-direction: column;
+
+    }
+    
+    .box1 .box2{
+      width: 89%;  
+    }
+    .row-2{
+        width: 90%;
+    }
+    .join-title3{
+             font-size: 30px;
+            
+            }
+
+.email{
+    width: auto;
+}
+
+.footer{
+    flex-direction: column;
+}
+.part1{
+            width: auto;
+         }
+.part4{
+            width: auto;
+         }
+
+    
+
+
+}
+  
