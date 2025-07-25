@@ -20,6 +20,23 @@
     color: rgba(233, 90, 8, 1);
 }
 
+.btn-2{
+    text-decoration-line: underline;
+    background: none;
+    color: white;
+    border: none;
+    
+}
+
+.font28{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.font16{
+    font-size: 16px;
+    font-weight: 600;
+}
      /* header styles */
 
 .navbar{
@@ -59,7 +76,11 @@
 }
         
          /* <!-- plant Section --> */
+.plant-section{
+    margin-bottom: 20px;
+}         
 
+        
 .plant-title{
     font-size: 50px;
     font-weight: bold;
@@ -68,12 +89,16 @@
 
 }
 .plant-subtitle{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: center;
-    margin-bottom: 50px;
+
+     color: rgba(0, 0, 0, 0.5);
+     font-size: 22px;
+     font-weight: 400;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 880px;
+     height: 80px;
 }
 .card-title{
     color: rgb(17, 17, 17);
@@ -397,14 +422,19 @@
     .plant-lover{
         flex-direction: column;
     }
+
+    .plant-subtitle{
+        width: auto;
+        height: auto;
+    }
+    
     .flower-title{
         font-size: 30px;
         font-weight: 600;
         line-height: 30px;
         width: 100%;
         margin: auto;
-        
-        
+
 
     }
     .flower-right{
